@@ -1,0 +1,15 @@
+@import "base/typogrophy";
+@import "layout/footer";
+@import "layout/navbar";
+@import "utils/mixin";
+
+* {
+  .language {
+    a {
+      @include language;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}

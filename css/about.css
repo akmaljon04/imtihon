@@ -1,0 +1,40 @@
+@import url(../_global.scss);
+@import url(../_global.scss);
+@font-face {
+  font-family: "yozuv", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "yozuv", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+#about section {
+  width: 720px;
+  height: 1600px;
+}
+#about section h2 {
+  font-size: 64px;
+  line-height: 83px;
+  padding-top: 50px;
+}
+#about section p {
+  padding-top: 40px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #242424;
+  padding-bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  #about section {
+    width: 50%;
+    height: 200%;
+  }
+}/*# sourceMappingURL=about.css.map */

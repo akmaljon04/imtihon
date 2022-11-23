@@ -1,0 +1,25 @@
+@import url(../_global.scss);
+@import url(../_global.scss);
+@font-face {
+  font-family: "yozuv", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "yozuv", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+.navbar {
+  background-color: #BB2339;
+}
+
+.log__in:hover {
+  color: rgb(127, 127, 150) !important;
+}/*# sourceMappingURL=navbar.css.map */

@@ -1,0 +1,27 @@
+@import "../global";
+
+#about{
+  section{
+    width: 720px;
+    height: 1600px;
+    h2{
+      font-size: 64px;
+      line-height: 83px;
+      padding-top: 50px;
+    }
+    p{
+      padding-top: 40px;
+      font-size: 20px;
+      line-height: 32px;
+      color: #242424;
+      padding-bottom: 20px;
+    }
+    
+  }
+  @media screen and (max-width:576px){
+    section{
+      width: 50%;
+      height: 200%;
+    }
+  }
+}

@@ -1,0 +1,121 @@
+@import url(../_global.scss);
+@import url(../_global.scss);
+@font-face {
+  font-family: "yozuv", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "yozuv", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.menu__link {
+  margin-top: 50px;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.menu__link__a {
+  text-decoration: none;
+  color: #BB2339;
+  padding-left: 20px;
+  font-size: 22px;
+}
+
+.menu__link__a__home {
+  color: black;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+section {
+  height: 2400px;
+}
+
+.bigger {
+  height: 584px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.big {
+  width: 410px;
+  height: 584px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid rgb(199, 197, 197);
+}
+
+.tips {
+  width: 410px;
+  height: 352px;
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  background-image: url(/image/paul-hermann-jeiqzOgwwKU-unsplash\ 2.png);
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+span {
+  color: #BB2339;
+}
+
+.read__more {
+  text-decoration: none;
+  color: #BB2339;
+}
+
+.gritch__preping__april {
+  position: relative;
+  left: 270px;
+  bottom: 23px;
+}
+
+.more {
+  position: relative;
+  top: 50px;
+  left: 600px;
+}
+
+.news {
+  position: relative;
+  left: 600px;
+  font-size: 48px;
+}
+
+p {
+  color: #AAAAAA;
+}
+
+@media screen and (max-width: 576px) {
+  .bigger {
+    width: 50%;
+    height: 200%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .big {
+    width: 33%;
+    height: 200%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .tips {
+    width: 33%;
+    height: 200%;
+  }
+}/*# sourceMappingURL=news.css.map */

@@ -1,0 +1,204 @@
+@import url(../_global.scss);
+@import url(../_global.scss);
+@font-face {
+  font-family: "yozuv", sans-serif;
+  src: url(../../fonts/Montserrat-Bold.ttf);
+}
+* {
+  font-family: "yozuv", sans-serif;
+}
+
+* .language a {
+  text-decoration: none;
+  color: white;
+}
+* .language a:hover {
+  color: blue;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#index {
+  height: 921px;
+  color: white;
+  background-color: #bb2339;
+}
+#index .row {
+  height: 604px;
+  padding-top: 100px;
+}
+#index .row .col-sm-12 h3 {
+  font-size: 23px;
+  line-height: 30px;
+}
+#index .row .col-sm-12 h1 {
+  font-size: 90px;
+  line-height: 117px;
+}
+#index .row .col-sm-12 p {
+  font-size: 18px;
+  line-height: 30px;
+  color: rgb(153, 150, 150);
+}
+#index .row .col-sm-12 button {
+  width: 131px;
+  height: 48px;
+  border: 2px solid white;
+  border-radius: 30px;
+  background-color: #bb2339;
+}
+#index .row .col-sm-12 button:hover {
+  background-color: red;
+}
+#index .row .col-sm-12 a {
+  text-decoration: none;
+  color: white;
+}
+#index .row .col-sm-12 a:hover {
+  color: rgb(130, 130, 169);
+}
+
+.big-popoolyar {
+  font-size: 48px;
+  color: #bb2339 !important;
+}
+
+.popular {
+  height: 784px;
+  padding-top: 200px;
+  background-color: whitesmoke;
+}
+
+.item {
+  width: 310px;
+  height: 390px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.item__foto {
+  width: 108px;
+  height: 20px;
+}
+
+.popular__dollor {
+  text-decoration: none;
+  color: #bb2339;
+}
+
+.menu__pack {
+  height: 1364px;
+  margin-top: 200px;
+}
+
+.menu__pack__h2 {
+  color: #bb2339;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.menu__pack__btn {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.testimony {
+  height: 645px;
+  padding-top: 100px;
+  background-color: whitesmoke;
+}
+
+.testimony__h2 {
+  font-size: 48px;
+  margin-top: 30px;
+}
+
+.every {
+  width: 255px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.maria {
+  width: 900px;
+  margin-top: 80px;
+}
+
+.every__time {
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+}
+
+.gritch__preping span a {
+  color: #bb2339;
+  text-decoration: none;
+}
+
+.gritch__preping__april {
+  margin-top: -20px;
+  margin-left: 300px;
+}
+
+.gritch__news {
+  padding-top: 100px;
+}
+
+.gritch__updates {
+  padding-top: 80px;
+  color: #bb2339;
+  font-size: 48px;
+  margin-bottom: 80px;
+}
+
+video {
+  width: 1400px;
+  height: 700px;
+  border: none;
+}
+
+.video__play {
+  position: relative;
+  top: 350px;
+}
+
+.instagram {
+  height: 855px;
+  margin-top: 100px;
+  background-color: whitesmoke;
+}
+
+.instagram__gallary {
+  padding-top: 70px;
+}
+
+.instagram__coursel {
+  padding-top: 70px;
+}
+
+.instagram__gallary h2 {
+  font-size: 48px;
+}
+
+.instagram__gallary button {
+  margin-left: 40px;
+}
+
+.video__modal {
+  position: relative;
+  bottom: 450px;
+}
+
+.modal-content {
+  width: 1500px !important;
+  position: relative;
+  right: 500px;
+}/*# sourceMappingURL=index.css.map */
